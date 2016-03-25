@@ -15,3 +15,7 @@ text {
   width: 1000px;
   margin: 0 auto;
 }
+
+.filler {
+  height: 50px;
+}
