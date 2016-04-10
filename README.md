@@ -1,4 +1,4 @@
-# fb-sentiment-vis
+# Facebook Sentiment Visualization
 
 A data visualization that compares Facebook comments' and statuses' sentiments to the number of likes they received.
 
