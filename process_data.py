@@ -25,7 +25,6 @@ process_comments('data/comments.json', 'data/comments_processed.json')
 process_statuses('data/statuses.json', 'data/statuses_processed.json')
 
 
-
 def check_permutations(str):
     """
     I was curious if TextBlob calculates the sentiment of a sentence by just summing the sentiment for all the words,
@@ -36,4 +35,4 @@ def check_permutations(str):
     polarity = TextBlob(perms[0]).sentiment.polarity
     return all([TextBlob(text).sentiment.polarity == polarity for text in perms])
 
-print check_permutations('TextBlob really favors =D')
+# print check_permutations('TextBlob really favors =D')
